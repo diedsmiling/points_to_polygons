@@ -1,0 +1,13 @@
+{
+  "name": "points_to_polygons",
+  "version": "1.0.0",
+  "description": "Creates polygons around a point",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
