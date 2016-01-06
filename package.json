@@ -3,10 +3,18 @@
   "version": "1.0.0",
   "description": "Creates polygons around a point",
   "main": "index.js",
-  "dependencies": {},
-  "devDependencies": {},
+  "dependencies": {
+    "pg-promise": "^2.8.5"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "mocha": "^2.3.4",
+    "proxyquire": "^1.7.3",
+    "sinon": "^1.17.2",
+    "sinon-chai": "^2.8.0"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha -r tests/test_helper.js -R spec tests/specs/**/**/*.js"
   },
   "author": "",
   "license": "ISC"
